@@ -1,0 +1,3 @@
+In the Binary Search algorithm, it is suggested to calculate the mid as
+beg + (end - beg) / 2 instead of (beg + end) / 2 because
+beg + (end - beg) / 2 won't overflow if start and end are large positive numbers.
